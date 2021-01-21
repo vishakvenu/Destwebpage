@@ -108,7 +108,7 @@
         font-size: 14px;
     }
     .container{
-        transform: translateY(-37%);
+        transform: translateY(-40%);
         
     }
     .booking-section{
@@ -118,27 +118,42 @@
     .booking-section h5,.booking-section select,.day h3,.promotion p,.promotion a{
         margin-bottom: 13px;
     }
+    .container{
+/*    height:100vh;*/
+    width:100%;
+/*    background:grey;*/
+    transform: translateY(-6%);
+
+}
+    .text-section .text-dark{
+        color: #343333 !important;
+        
+    }
+    .text-section{
+        height:140px;
+    }
+    
     .gallery{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(4,300px);
-        grid-row-gap: 10px;
+        grid-row-gap: 15px;
     }
     .grid-gallery-section{
         grid-row-gap: 10px;
     }
     .grid-gallery-section .one{
-        padding-top:28px;
+        padding-top:98px;
 /*        padding-bottom: 10px;*/
     }
     .grid-gallery-section .one h3{
-        font-size: 20px;
+        font-size: 18px;
     }
     .grid-gallery-section .one p{
-        font-size: 14px;
+        font-size: 12px;
         line-height: 18px;
     }
     .grid-gallery-section .one a{
-        font-size: 14px;
+        font-size: 12px;
         padding:10px 8px;
         
     }
@@ -154,4 +169,35 @@
     .grid-gallery-section .five{
         grid-column: 1/4;
     }
+    .discover-section-grid {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,300px);
+        grid-row-gap: 10px;
+    }
+    footer{
+        margin-top: -235px;
+    }
+    footer .containerone{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,250px);
+            padding:0;
+    }
+    footer .containerone .left-section{
+    padding:0px;
 }
+    footer .containerone .right-section{
+    color: white;
+    padding:0px;
+}
+    footer .containerone .right-section p{
+    width:230px;
+}
+    footer .containerone .right-section .fa{
+        margin-bottom: 15px;
+    }
+    .bottom{
+        padding-top:4px;
+    }
+}
+
+
