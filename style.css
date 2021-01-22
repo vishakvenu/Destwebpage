@@ -93,7 +93,7 @@ ul li a:hover{
     word-spacing: 8px;
     font-size: 14px;
 }
-.container{
+.cont{
 /*    height:100vh;*/
     width:100%;
 /*    background:grey;*/
@@ -475,13 +475,18 @@ footer .containerone .left-section{
 }
 .address,.phone-number,.gmail{
    display: flex; 
+/*    justify-content: center;*/
+    align-items: center;
     margin-bottom: 20px;
+    flex-wrap: nowrap;
+/*    text-transform: uppercase;*/
 }
+
 .address{
     color: white;
 }
 footer .containerone .fa{
-    font-size: 24px;
+    font-size: 34px;
     color: white;
     margin-right:25px;
 }

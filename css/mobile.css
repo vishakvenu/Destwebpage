@@ -107,7 +107,7 @@
     .text-area p{
         font-size: 14px;
     }
-    .container{
+    .cont{
         transform: translateY(-40%);
         
     }
@@ -118,7 +118,7 @@
     .booking-section h5,.booking-section select,.day h3,.promotion p,.promotion a{
         margin-bottom: 13px;
     }
-    .container{
+    .cont{
 /*    height:100vh;*/
     width:100%;
 /*    background:grey;*/
@@ -198,6 +198,8 @@
     .bottom{
         padding-top:4px;
     }
+    .gmail h5 a{
+     font-size: 16px;
 }
-
+}
 
